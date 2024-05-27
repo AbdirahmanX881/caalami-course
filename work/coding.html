@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAALAMI_COURSES | coding</title>
+    <link rel="stylesheet" href="/work/code.css" />
+    <script defer src="code.js"></script>
+    <link rel="icon" type="image/x-icon" href="/photos/favicon.ico" />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <section id="coding" class="courses-section">
+      <div class="container">
+        <h2>Coding Courses</h2>
+        <div class="content">
+          <ul class="course-list">
+            <li>
+              <img src="/photos/html.jpg" alt="HTML Icon" />
+              <button onclick="showMessage('HTML')">HTML</button>
+            </li>
+            <li>
+              <img src="/photos/icons8-css-50.png" alt="CSS Icon" />
+              <button onclick="showMessage('CSS')">CSS</button>
+            </li>
+            <li>
+              <img
+                src="/photos/icons8-javascript-48.png"
+                alt="JavaScript Icon"
+              />
+              <button onclick="showMessage('JavaScript')">JavaScript</button>
+            </li>
+            <li>
+              <img src="/photos/python.jpg" alt="Python Icon" />
+              <button onclick="showMessage('Python')">Python</button>
+            </li>
+            <li>
+              <img src="/photos/Screenshot_1.jpg" alt="C++ Icon" />
+              <button onclick="showMessage('C++')">C++</button>
+            </li>
+            <!-- Add more coding courses here with respective icons -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div id="message" class="message-box" style="display: none">
+      <p id="message-text"></p>
+      <button onclick="closeMessage()">Close</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAALAMI_COURSES | coding</title>
+    <link rel="stylesheet" href="/work/code.css" />
+    <script defer src="code.js"></script>
+    <link rel="icon" type="image/x-icon" href="/photos/favicon.ico" />
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
+  <body>
+    <section id="coding" class="courses-section">
+      <div class="container">
+        <h2>Coding Courses</h2>
+        <div class="content">
+          <ul class="course-list">
+            <li>
+              <img src="/photos/icons8-cloud-access-48.png" alt="CCNA Icon" />
+              <button onclick="showMessage('CCNA')">CCNA</button>
+            </li>
+            <li>
+              <img src="/photos/icons8-cloud-network-48.png" alt="CISCO Icon" />
+              <button onclick="showMessage('CISCO')">CISCO</button>
+            </li>
+            <li>
+              <img
+                src="/photos/icons8-connection-to-account-48.png"
+                alt="COMPUTER NETWORK Icon"
+              />
+              <button onclick="showMessage('COMPUTER NETWORK')">
+                COMPUTER NETWORK
+              </button>
+            </li>
+            <li>
+              <img
+                src="/photos/icons8-cloud-access-48.png"
+                alt="NEWTWORK ADMINSTRATION Icon"
+              />
+              <button onclick="showMessage('NETWORK ADMINSTRATION')">
+                NETWORK ADMINSTRATION
+              </button>
+            </li>
+            <li>
+              <img
+                src="/photos/icons8-connection-to-account-48.png"
+                alt="SYSTEM ADMINSTRATION Icon"
+              />
+              <button onclick="showMessage('SYSTEM ADMINSTRATION')">
+                SYSTEM ADMINSTRATION
+              </button>
+            </li>
+            <!-- Add more coding courses here with respective icons -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <div id="message" class="message-box" style="display: none">
+      <p id="message-text"></p>
+      <button onclick="closeMessage()">Close</button>
+    </div>
+  </body>
+</html>
